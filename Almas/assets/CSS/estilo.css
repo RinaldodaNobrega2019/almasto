@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+body {
+  font-family: system-ui;
+  background: #008000;
+  color: black;
+  text-align: center;
+}
+
+header {
+  background-color: yellow;
+}
+
+.logo {
+  height: 240px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+}
+
+.title-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.title-container {
+  font-size: 22px;
+}
+
+. {
+  color: #e63946;
+  text-decoration: none;
+}
+
+.p {
+  text-align: justify;
+  line-height: 24px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.text-container {
+  text-indent: 24px;
+}
+
+manchete {
+  font-weight: bold;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+}
+
+figure {
+  text-align: center;
+  width: 90%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+article img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: black;
+}
+.menu {
+  color: white;
+  list-style-type: none;
+  justify-content: space-around;
+  display: flex;
+  padding: 0;
+}
+
+footer {
+  background-color: aqua;
+  height: 70px;
+  overflow: auto;
+}
